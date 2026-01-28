@@ -18,13 +18,14 @@ config/icon="res://icon.svg"
 [autoload]
 
 AudioManager="*res://Script/audio_manager.gd"
-GameData="*res://Script/GameData.gd"
+GameData="*res://GameData.gd"
 
 [display]
 
 window/size/viewport_width=1920
 window/size/viewport_height=1080
-window/stretch/aspect="keep_width"
+window/stretch/mode="viewport"
+window/stretch/aspect="ignore"
 
 [rendering]
 
